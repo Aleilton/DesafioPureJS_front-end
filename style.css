@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 90%;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  width: 100%;
+}
+
+form input {
+  border-radius: 5px;
+  border: solid 1px rgb(150, 150, 150);
+  margin: 0 2px;
+  padding: 5px 10px;
+}
+
+form input:first-child {
+  flex-grow: 3;
+}
+
+form input:nth-child(2) {
+  flex-grow: 3;
+}
+
+form button {
+  flex-grow: 2;
+}
+
+.contatos {
+  width: 100%;
+}
+
+.contatos table {
+  background-color: #f6f6f6;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background: brown;
+  color: white;
+}
+
+td, th {
+border: 1px solid #999;
+padding: 5px;
+}
+
+.contatos tr button {
+
+  width: 100%;
+}
